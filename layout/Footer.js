@@ -8,7 +8,7 @@ function getYear() {
 const Footer = () => {
   const year = getYear()
   return (
-    <div className='bg-vertClair text-xl font-semibold flex items-center justify-center text-white py-10'>
+    <div className='bg-marron text-xl font-semibold flex items-center justify-center text-white py-10'>
       <p>copyright © company {year} </p>
     </div>
   )
