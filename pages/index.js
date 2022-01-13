@@ -1,7 +1,13 @@
 import React from 'react'
-import Navbar from '../layout/Navbar'
+import HomePage from '../components/home'
+import AboutPage from '../components/about'
 const Home = () => {
-  return <div className='text-3xl min-h-screen'>Hello World</div>
+  return (
+    <div className=''>
+      <HomePage />
+      <AboutPage />
+    </div>
+  )
 }
 
 export default Home

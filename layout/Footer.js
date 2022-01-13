@@ -9,7 +9,7 @@ const Footer = () => {
   const year = getYear()
   return (
     <div className='bg-marron text-xl font-semibold flex items-center justify-center text-white py-10'>
-      <p>copyright © company {year} </p>
+      <p>copyright © Akhad {year} </p>
     </div>
   )
 }
