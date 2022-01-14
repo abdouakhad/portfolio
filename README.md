@@ -15,3 +15,6 @@ npm run dev
 # or
 yarn dev
 ```
+
+For the problem of the email
+https://www.youtube.com/watch?v=hQjlM-8C4Ps
