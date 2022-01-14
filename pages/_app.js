@@ -6,8 +6,17 @@ import {
   faStar,
   faPaintBrush,
   faGripLines,
+  faCoffee,
 } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faGithub, faLinkedin, faPaintBrush, faStar, faGripLines)
+library.add(
+  fab,
+  faGithub,
+  faLinkedin,
+  faPaintBrush,
+  faStar,
+  faGripLines,
+  faCoffee
+)
 import Layout from '../layout/Layout'
 function MyApp({ Component, pageProps }) {
   return (

@@ -33,7 +33,7 @@ export const Navbar = () => {
                   <FontAwesomeIcon
                     color='#04DDB2'
                     icon='star'
-                    spin
+                    pulse
                     className='shadow-xl'
                   />
                 </span>
@@ -42,7 +42,7 @@ export const Navbar = () => {
             </a>
           </Link>
           <button
-            className=' inline-flex p-3 hover:bg-marron rounded lg:hidden text-marron ml-auto hover:text-marron outline-none'
+            className='bg-white inline-flex p-3 hover:bg-white rounded lg:hidden text-marron ml-auto hover:text-marron outline-none'
             onClick={handleClick}
           >
             <svg
