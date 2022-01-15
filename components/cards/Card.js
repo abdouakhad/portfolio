@@ -9,6 +9,8 @@ const Card = ({ section }) => {
   )
 }
 
+// Project component
+
 const Project = () => {
   return (
     <>

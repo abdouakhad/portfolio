@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import Card, { Project } from '../components/cards/Card'
+import Card from '../components/cards/Card'
+import Project from '../components/tabs/Project'
+import Skills from '../components/tabs/Skills'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 const ResumePage = () => {
@@ -115,9 +117,9 @@ const ResumePage = () => {
           </div>
         </div>
 
-        <div className='rounded scrollbar h-[400px] relative overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 '>
-          {active === 'project' && <Project section='project' />}
-          {active === 'skills' && <Card section='skills' />}
+        <div className='w-full rounded scrollbar h-[400px]  overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 '>
+          {active === 'project' && <Project />}
+          {active === 'skills' && <Skills />}
           {active === 'education' && <Card section='education' />}
           {active === 'workHistory' && <Card section='WorkHistory' />}
           {active === 'hobby' && <Card section='hobby' />}
