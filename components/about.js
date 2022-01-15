@@ -24,7 +24,7 @@ const AboutPage = () => {
         </p>
       </div>
       <div className='px-8 md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose'>
-        <div>
+        <div className='not-italic'>
           lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

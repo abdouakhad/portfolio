@@ -47,10 +47,11 @@ const HomePage = () => {
           </div>
         </div>
         <div className='home md:mb-0 mb-[200px] '>
-          <div className=' min-h-[480px]'>
+          <div className=' min-h-[480px] relative'>
             <Image
               src='/background.png'
               layout='fill'
+              priority
               objectFit='cover'
               alt='image'
               objectPosition='bottom left'
