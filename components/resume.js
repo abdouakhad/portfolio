@@ -115,7 +115,7 @@ const ResumePage = () => {
           </div>
         </div>
 
-        <div className='lg:h-[400px] md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 '>
+        <div className='rounded scrollbar h-[400px] relative overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 '>
           {active === 'project' && <Project section='project' />}
           {active === 'skills' && <Card section='skills' />}
           {active === 'education' && <Card section='education' />}
