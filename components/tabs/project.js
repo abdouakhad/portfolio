@@ -8,6 +8,7 @@ const Project = () => {
         description='A Personal Portfolio website to showcase all my details and projects at one place.  A Personal Portfolio website to showcase all my details and projects
           at one place.'
       />
+
       <SingleProject
         title='Ecommerce Website'
         description='A Personal Portfolio website to showcase all my details and projects
