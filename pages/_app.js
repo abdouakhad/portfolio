@@ -19,6 +19,7 @@ import {
   faCircle,
   faBasketballBall,
   faServer,
+  faArrowAltCircleUp,
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
   fab,
@@ -35,7 +36,8 @@ library.add(
   faCircle,
   faBasketballBall,
   faDeploydog,
-  faServer
+  faServer,
+  faArrowAltCircleUp
 )
 import Layout from '../layout/Layout'
 function MyApp({ Component, pageProps }) {
