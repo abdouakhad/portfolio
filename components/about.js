@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const AboutPage = () => {
   return (
-    <div className='about-page bg-marron  min-h-[400px] text-white'>
+    <div className='about-page bg-marron  min-h-[400px] text-white pt-16'>
       <div className='py-8'>
         <h1 className='text-center text-4xl'>About me</h1>
         <p className='text-center text-2xl'>

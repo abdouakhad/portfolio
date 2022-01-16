@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Card from '../components/cards/Card'
 import Project from '../components/tabs/Project'
 import Skills from '../components/tabs/Skills'
+import Education from '../components/tabs/Education'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 const ResumePage = () => {
@@ -120,7 +121,7 @@ const ResumePage = () => {
         <div className='w-full rounded scrollbar h-[400px]  overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 '>
           {active === 'project' && <Project />}
           {active === 'skills' && <Skills />}
-          {active === 'education' && <Card section='education' />}
+          {active === 'education' && <Education />}
           {active === 'workHistory' && <Card section='WorkHistory' />}
           {active === 'hobby' && <Card section='hobby' />}
         </div>

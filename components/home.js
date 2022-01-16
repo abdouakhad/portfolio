@@ -27,7 +27,7 @@ const HomePage = () => {
                 ]}
                 loop={Infinity}
                 wrapper='b'
-              />
+              />{' '}
             </span>
           </p>
           <div className=' self-center overflow-hidden pb-0 text-center md:bg-transparent bg-white w-full  md:mt-0  '>
