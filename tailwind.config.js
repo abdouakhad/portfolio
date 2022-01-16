@@ -1,3 +1,5 @@
+var defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: 'jit',
 
@@ -16,6 +18,10 @@ module.exports = {
       colors: {
         marron: '#333333',
         vert: '#04DDB2',
+      },
+      screens: {
+        xs: '475px',
+        ...defaultTheme.screens,
       },
     },
   },

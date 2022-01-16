@@ -3,7 +3,7 @@ import SingleSkills from '../singletabs/singleSkills'
 const Skills = () => {
   return (
     <>
-      <div className='grid grid-cols-2 lg:gap-4'>
+      <div className='grid xs:grid-cols-2 grid-cols-1  lg:gap-4'>
         <div>
           <SingleSkills src='/tech/python.svg' skill='Python' />
           <SingleSkills src='/tech/django.svg' skill='Django' />

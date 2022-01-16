@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const AboutPage = () => {
   return (
-    <div className='about-page bg-marron  min-h-[400px] text-white pt-16'>
+    <div className='about-page bg-marron md:mt-0 mt-32  min-h-[400px] text-white pt-16'>
       <div className='py-8'>
         <Fade cascade={true} direction='bottom' duration={1000}>
           <h1 className='text-center text-4xl'>About me</h1>
@@ -39,14 +39,16 @@ const AboutPage = () => {
         </Fade>
 
         <Fade direction='right' duration={3000} triggerOnce={true}>
-          <Image
-            src='/design.svg'
-            width='400px'
-            height='400px'
-            alt='design'
-            className=''
-            priority='true'
-          />
+          <div>
+            <Image
+              src='/design.svg'
+              width='400px'
+              height='400px'
+              alt='design'
+              className=''
+              priority='true'
+            />
+          </div>
         </Fade>
       </div>
     </div>
