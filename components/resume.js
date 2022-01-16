@@ -13,7 +13,7 @@ const ResumePage = () => {
   const [active, setActive] = useState('project')
 
   return (
-    <div className='about-page bg-marron pb-10 text-white'>
+    <div className='about-page bg-marron pb-10 text-white  md:px-8 px-4'>
       <div className='title'>
         <Fade
           cascade={true}
@@ -32,14 +32,14 @@ const ResumePage = () => {
         <p className='w-3/12 m-auto h-2 bg-white flex relative rounded '></p>
       </div>
 
-      <div className='resume py-5 mt-16 lg:px-16 md:px-8 px-4 md:grid  md:grid-cols-4 grid-cols-1 justify-center items-center gap-4 '>
+      <div className='resume py-5 mt-16   md:grid  md:grid-cols-4 grid-cols-1 justify-center items-center gap-4 '>
         <Fade
           cascade={true}
           duration={1000}
           direction='left'
           triggerOnce={true}
         >
-          <div className=' lg:h-[400px] md:col-span-2 name grid grid-cols-12 text-lg md:justify-self-end  '>
+          <div className=' lg:h-[400px] md:col-span-2 name grid grid-cols-12 text-lg  '>
             <div className='col-span-1  bg-white text-black rounded text-center'>
               <p className='p-2 text-marron'> &nbsp;</p>
               <p className='p-2 text-marron'>
@@ -64,7 +64,7 @@ const ResumePage = () => {
 
             <div className='col-span-10 rounded bg-marron h-full'>
               <p className='p-2'>&nbsp; </p>
-              <p className=' bg-white text-marron rounded-r md:w-9/12 w-11/12 '>
+              <p className=' bg-white text-marron rounded-r md:w-9/12 w-11/12'>
                 <button
                   onClick={() => setActive('project')}
                   className={`${

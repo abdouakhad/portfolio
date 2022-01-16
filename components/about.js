@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const AboutPage = () => {
   return (
-    <div className='about-page bg-marron md:mt-0 mt-32  min-h-[400px] text-white pt-16'>
+    <div className='about-page md:px-8 px-4 bg-marron md:mt-0 mt-32  min-h-[400px] text-white pt-16'>
       <div className='py-8'>
         <Fade cascade={true} direction='bottom' duration={1000}>
           <h1 className='text-center text-4xl'>About me</h1>
@@ -27,7 +27,7 @@ const AboutPage = () => {
           </p>
         </Fade>
       </div>
-      <div className='px-8 md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose'>
+      <div className=' md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose'>
         <Fade direction='left' duration={2000} triggerOnce={true}>
           <div className='not-italic'>
             lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

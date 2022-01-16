@@ -10,6 +10,7 @@ const Skills = () => {
           <SingleSkills src='/tech/js.svg' skill='js' />
           <SingleSkills src='/tech/r-lang.svg' skill='R' />
           <SingleSkills src='/tech/postgresql.svg' skill='Postgresql' />
+          <SingleSkills src='/tech/electron.svg' skill='Electron JS' />
         </div>
         <div>
           <SingleSkills src='/tech/react.svg' skill='React JS' />
@@ -17,6 +18,11 @@ const Skills = () => {
           <SingleSkills src='/tech/tailwindcss.svg' skill='Tailwind css' />
           <SingleSkills src='/tech/nodejs0.svg' skill='Node JS' />
           <SingleSkills src='/tech/mongodb.svg' skill='Mongo DB' />
+          <SingleSkills
+            src='/tech/express3.svg'
+            skill='Express JS'
+            className='bg-white text-white'
+          />
         </div>
       </div>
     </>
