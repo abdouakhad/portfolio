@@ -36,12 +36,12 @@ const HomePage = () => {
 
           <div className=' self-center overflow-hidden pb-0 text-center md:bg-transparent bg-white w-full  md:mt-0  '>
             {' '}
-            <Fade duration={5000} direction='right' triggerOnce={true}>
+            <Fade duration={3000} direction='right' triggerOnce={true}>
               <Image
                 src='/nobg.svg'
-                priority
-                width='400'
-                height='400'
+                priority='true'
+                width='400px'
+                height='400px'
                 objectFit='contain'
                 alt='image'
                 objectPosition='bottom left'

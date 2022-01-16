@@ -8,8 +8,9 @@ function getYear() {
 const Footer = () => {
   const year = getYear()
   return (
-    <div className='bg-marron text-xl font-semibold flex items-center justify-center text-white py-10 mt-10'>
-      <p>copyright © Akhad {year} </p>
+    <div className='bg-white text-xl font-semibold flex leading-loose tracking-wider flex-col items-center justify-center text-marron py-10 mt-10'>
+      <p> © Akhad {year}. All rights reserved. </p>
+      <p>Built with ❤️ in Somone, SN</p>
     </div>
   )
 }

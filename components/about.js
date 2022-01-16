@@ -39,7 +39,14 @@ const AboutPage = () => {
         </Fade>
 
         <Fade direction='right' duration={3000} triggerOnce={true}>
-          <Image src='/design.svg' width={400} height={400} alt='design' />
+          <Image
+            src='/design.svg'
+            width='400px'
+            height='400px'
+            alt='design'
+            className=''
+            priority='true'
+          />
         </Fade>
       </div>
     </div>
