@@ -1,6 +1,5 @@
 import React from 'react'
 import SingleSkills from '../singletabs/singleSkills'
-const value = 75
 const Skills = () => {
   return (
     <>

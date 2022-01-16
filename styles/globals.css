@@ -6,7 +6,10 @@
   font-family: 'Libre Baskerville', serif;
   font-style: italic;
 }
-
+.home {
+  background-attachment: fixed;
+  position: relative;
+}
 html {
   scroll-behavior: smooth;
 }

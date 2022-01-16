@@ -12,6 +12,7 @@ import {
   faHistory,
   faIcons,
   faCircle,
+  faBasketballBall,
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
   fab,
@@ -25,7 +26,8 @@ library.add(
   faUserGraduate,
   faHistory,
   faIcons,
-  faCircle
+  faCircle,
+  faBasketballBall
 )
 import Layout from '../layout/Layout'
 function MyApp({ Component, pageProps }) {

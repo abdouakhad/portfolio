@@ -3,6 +3,8 @@ import Card from '../components/cards/Card'
 import Project from '../components/tabs/Project'
 import Skills from '../components/tabs/Skills'
 import Education from '../components/tabs/Education'
+import WorkHistory from '../components/tabs/WorkHistory'
+import Hobby from '../components/tabs/Hobby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 const ResumePage = () => {
@@ -59,7 +61,7 @@ const ResumePage = () => {
                 Projects
               </button>
             </p>
-            <p className=' bg-white text-marron rounded-r w-9/12'>
+            <p className=' bg-white text-marron rounded-r md:w-9/12 w-full'>
               <button
                 onClick={() => setActive('skills')}
                 className={`${
@@ -72,7 +74,7 @@ const ResumePage = () => {
                 Skills
               </button>
             </p>
-            <p className=' bg-white text-marron rounded-r w-9/12'>
+            <p className=' bg-white text-marron rounded-r md:w-9/12 w-full'>
               <button
                 onClick={() => setActive('education')}
                 className={`${
@@ -86,7 +88,7 @@ const ResumePage = () => {
               </button>
             </p>
 
-            <p className=' bg-white text-marron rounded-r w-9/12'>
+            <p className=' bg-white text-marron rounded-r md:w-9/12 w-full'>
               <button
                 onClick={() => setActive('workHistory')}
                 className={`${
@@ -98,7 +100,7 @@ const ResumePage = () => {
                 Work history
               </button>
             </p>
-            <p className=' bg-white text-marron rounded-r w-9/12'>
+            <p className=' bg-white text-marron rounded-r md:w-9/12 w-full'>
               <button
                 onClick={() => setActive('hobby')}
                 className={`${
@@ -122,8 +124,8 @@ const ResumePage = () => {
           {active === 'project' && <Project />}
           {active === 'skills' && <Skills />}
           {active === 'education' && <Education />}
-          {active === 'workHistory' && <Card section='WorkHistory' />}
-          {active === 'hobby' && <Card section='hobby' />}
+          {active === 'workHistory' && <WorkHistory />}
+          {active === 'hobby' && <Hobby section='hobby' />}
         </div>
       </div>
     </div>
