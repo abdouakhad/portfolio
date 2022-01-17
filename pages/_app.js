@@ -19,6 +19,7 @@ import {
   faCircle,
   faBasketballBall,
   faServer,
+  faEye,
   faArrowAltCircleUp,
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
@@ -37,6 +38,7 @@ library.add(
   faBasketballBall,
   faDeploydog,
   faServer,
+  faEye,
   faArrowAltCircleUp
 )
 import Layout from '../layout/Layout'

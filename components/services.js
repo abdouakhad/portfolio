@@ -19,24 +19,30 @@ const Services = () => {
         </Fade>
       </div>
       <div className='grid md:grid-cols-3 grid-cols-1 md:gap-4 sm:gap-2'>
-        <SingleService
-          icon='paint-brush'
-          title='UI/UX Design'
-          description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
-          className='mt-5'
-        />
-        <SingleService
-          icon='file-code'
-          title='Web App'
-          description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
-          className='mt-5'
-        />
-        <SingleService
-          icon='server'
-          title='Deploy App'
-          description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
-          className='mt-5'
-        />
+        <Fade cascade duration={2000} direction='left'>
+          <SingleService
+            icon='paint-brush'
+            title='UI/UX Design'
+            description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
+            className='mt-5'
+          />
+        </Fade>
+        <Fade cascade duration={2000} direction='bottom'>
+          <SingleService
+            icon='file-code'
+            title='Web App'
+            description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
+            className='mt-5'
+          />
+        </Fade>
+        <Fade cascade duration={2000} direction='right'>
+          <SingleService
+            icon='server'
+            title='Deploy App'
+            description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
+            className='mt-5'
+          />
+        </Fade>
       </div>
     </div>
   )
