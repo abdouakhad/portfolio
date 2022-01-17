@@ -18,7 +18,7 @@ const SingleService = ({ icon, title, description }) => {
     <div
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
-      className=' mt-10 bg-marron h-full text-white rounded-lg py-2 sm:px-4 px-8 flex flex-col text-center justify-center items-center transition transform  duration-700 hover:bg-vert hover:text-marron hover:scale-105'
+      className=' mt-10 bg-marron h-full text-white rounded-lg py-2 sm:px-6 px-8 flex flex-col text-center justify-center items-center transition transform  duration-700 hover:bg-vert hover:text-marron hover:scale-105'
     >
       <p className='inline '>
         <FontAwesomeIcon
