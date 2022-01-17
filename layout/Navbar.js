@@ -72,22 +72,22 @@ export const Navbar = () => {
                   Home
                 </a>
               </Link>
-              <Link href='/about'>
+              <Link href='#about'>
                 <a className='lg:inline-flex lg:w-auto w-full  py-0  items-center justify-center  font-light transition duration-500 ease-in-out hover:text-base transform sm:hover:-translate-y-1 sm:hover:translate-x-0 hover:translate-x-8 hover:scale-110 ...'>
                   About Us
                 </a>
               </Link>
-              <Link href='/resume'>
+              <Link href='#resume'>
                 <a className='lg:inline-flex lg:w-auto w-full  py-0  items-center justify-center  font-light transition duration-500 ease-in-out hover:text-base transform sm:hover:-translate-y-1 sm:hover:translate-x-0 hover:translate-x-8 hover:scale-110 ...'>
                   Resume
                 </a>
               </Link>
-              <Link href='/services'>
+              <Link href='#services'>
                 <a className='lg:inline-flex lg:w-auto w-full  py-0  items-center justify-center  font-light transition duration-500 ease-in-out hover:text-base transform sm:hover:-translate-y-1 sm:hover:translate-x-0 hover:translate-x-8 hover:scale-110 ...'>
                   Services
                 </a>
               </Link>
-              <Link href='/contact'>
+              <Link href='#contact'>
                 <a className='lg:inline-flex lg:w-auto w-full  py-0  items-center justify-center  font-light transition duration-500 ease-in-out hover:text-base transform sm:hover:-translate-y-1 sm:hover:translate-x-0 hover:translate-x-8 hover:scale-110 ...'>
                   {' '}
                   Contact us

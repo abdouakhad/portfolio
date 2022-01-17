@@ -13,8 +13,12 @@ const ResumePage = () => {
   const [active, setActive] = useState('project')
 
   return (
-    <div className='about-page bg-marron pb-10 text-white  md:px-8 px-4'>
-      <div className='title'>
+    <article
+      id='#resumes'
+      className='about-page bg-marron pb-10 text-white  md:px-8 px-4'
+    >
+      <h1 id='#resume'></h1>
+      <section className='title'>
         <Fade
           cascade={true}
           direction='bottom'
@@ -30,7 +34,7 @@ const ResumePage = () => {
         <p className='w-2/12 h-2  bg-vert m-auto rounded animate-bounce'></p>
         <p className='w-2/12 h-2  bg-vert m-auto rounded animate-bounce'></p>
         <p className='w-3/12 m-auto h-2 bg-white flex relative rounded '></p>
-      </div>
+      </section>
 
       <div className='resume py-5 mt-16   md:grid  md:grid-cols-4 grid-cols-1 justify-center items-center gap-4 '>
         <Fade
@@ -145,7 +149,7 @@ const ResumePage = () => {
           {active === 'hobby' && <Hobby section='hobby' />}
         </div>
       </div>
-    </div>
+    </article>
   )
 }
 

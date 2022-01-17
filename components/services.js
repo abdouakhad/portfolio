@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal'
 import SingleService from '../components/services/singleService'
 const Services = () => {
   return (
-    <div className='services mt-5  md:px-8 px-4'>
+    <div id='services' className='services mt-5  md:px-8 px-4'>
       <div className='py-8'>
         <Fade cascade={true} direction='bottom' duration={1000}>
           <h1 className='text-center text-4xl'>My services</h1>
