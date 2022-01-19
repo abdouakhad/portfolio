@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import Card from '../components/cards/Card'
-import Project from '../components/tabs/Project'
+import Project from '../components/tabs/project'
 import Skills from '../components/tabs/Skills'
 import Education from '../components/tabs/Education'
 import WorkHistory from '../components/tabs/WorkHistory'
