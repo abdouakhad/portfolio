@@ -74,7 +74,7 @@ export const Navbar = () => {
               </Link>
               <Link href='#about'>
                 <a className='lg:inline-flex lg:w-auto w-full  py-0  items-center justify-center  font-light transition duration-500 ease-in-out hover:text-base transform sm:hover:-translate-y-1 sm:hover:translate-x-0 hover:translate-x-8 hover:scale-110 ...'>
-                  About Us
+                  About Me
                 </a>
               </Link>
               <Link href='#resume'>
@@ -90,7 +90,7 @@ export const Navbar = () => {
               <Link href='#contact'>
                 <a className='lg:inline-flex lg:w-auto w-full  py-0  items-center justify-center  font-light transition duration-500 ease-in-out hover:text-base transform sm:hover:-translate-y-1 sm:hover:translate-x-0 hover:translate-x-8 hover:scale-110 ...'>
                   {' '}
-                  Contact us
+                  Contact Me
                 </a>
               </Link>
             </div>

@@ -7,11 +7,11 @@ const HomePage = () => {
   return (
     <div id='#home' className='relative md:mt-20'>
       <div className=' h-[490px] absolute  md:text-left text-center  m-auto  z-10 grid md:grid-cols-2 grid-cols-1 justify-center items-center w-full lg:px-8 md:px-1 px-0 '>
-        <p className=' md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 lg:text-3xl text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight'>
+        <div className=' md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 lg:text-3xl text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight'>
           <div>
             Hello, my name is <br></br>
             <span className='uppercase font-black text-3xl'>
-              Abdoul Akhad Top
+              Akhad Top
             </span>{' '}
             <br />
             and I am a {''}
@@ -21,9 +21,9 @@ const HomePage = () => {
                 steps={[
                   ' web designer ✍︎',
                   2000,
-                  ' freelancer 👨🏾‍💻',
-                  2000,
                   ' web developer 💻',
+                  2000,
+                  ' freelancer 👨🏾‍💻',
                   2000,
                 ]}
                 loop={Infinity}
@@ -31,7 +31,7 @@ const HomePage = () => {
               />{' '}
             </span>
           </div>
-        </p>
+        </div>
         <section className=' self-center overflow-hidden pb-0 text-center md:bg-transparent bg-white  w-full '>
           {' '}
           <Fade duration={3000} direction='right' triggerOnce={true}>

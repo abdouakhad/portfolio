@@ -34,11 +34,11 @@ const AboutPage = () => {
       <div className=' md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose'>
         <Fade direction='left' duration={2000} triggerOnce={true}>
           <div className='not-italic'>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit .
+            {` I'm a Full Stack Web
+            developer passionated about building beautiful and clean apps. I'm a
+            co-founder of masterweb which mostly does designs and content
+            creation.  I am quietly confident, naturally curious and perpetually
+            working on improving my chops on the design challenges at once.`}
           </div>
         </Fade>
 
