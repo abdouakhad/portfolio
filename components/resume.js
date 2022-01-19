@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Project from '../components/tabs/project'
-import Skills from '../components/tabs/Skills'
-import Education from '../components/tabs/Education'
-import WorkHistory from '../components/tabs/WorkHistory'
-import Hobby from '../components/tabs/Hobby'
+import Skills from '../components/tabs/skills'
+import Education from '../components/tabs/education'
+import WorkHistory from '../components/tabs/workHistory'
+import Hobby from '../components/tabs/hobby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Fade from 'react-reveal/Fade'
 
