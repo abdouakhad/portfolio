@@ -18,8 +18,7 @@ const SingleProject = ({
           <div>{children}</div>
         </div>
         <p className='pl-5 not-italic'>
-          {subTitle}:{' '}
-          <span className='not-italic'>Next Js && Tailwind CSS</span>
+          <span className='not-italic'>Technology: {subTitle}</span>
         </p>
         <p className='not-italic pl-5 tracking-widest text-xs font-extralight'>
           {description}

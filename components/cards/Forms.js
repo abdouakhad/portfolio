@@ -1,10 +1,17 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 import { useRef, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const Forms = () => {
+  const [loading, setLoading] = useState(false)
   const [done, setDone] = useState(false)
   const formRef = useRef()
   const handleSubmit = (e) => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000)
     e.preventDefault()
     emailjs
       .sendForm(
@@ -17,6 +24,9 @@ const Forms = () => {
         (result) => {
           console.log(result.text)
           setDone(true)
+          setTimeout(() => {
+            setDone(false)
+          }, 3000)
         },
         (error) => {
           console.log(error.text)
@@ -73,7 +83,11 @@ const Forms = () => {
                 type='submit'
                 name='send'
                 id='send'
+                disabled={loading}
               >
+                {loading && (
+                  <FontAwesomeIcon icon='spinner' color='#fff' spin />
+                )}{' '}
                 send
               </button>
               {done && (

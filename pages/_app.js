@@ -9,6 +9,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faStar,
+  faSpinner,
   faPaintBrush,
   faGripLines,
   faFileCode,
@@ -26,6 +27,7 @@ library.add(
   fab,
   faGithub,
   faLinkedin,
+  faSpinner,
   faPaintBrush,
   faStar,
   faGripLines,
