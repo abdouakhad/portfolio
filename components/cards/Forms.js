@@ -63,6 +63,7 @@ const Forms = () => {
                 type='email'
                 name='email'
                 placeholder='email'
+                required
               />
               <p className='text-marron opacity-80 text-xs italic'>
                 Please enter a valid email.
@@ -70,6 +71,7 @@ const Forms = () => {
             </div>
             <div className='mb-6'>
               <textarea
+                required
                 id='message'
                 name='message'
                 type='text'

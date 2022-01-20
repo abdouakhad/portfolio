@@ -27,7 +27,7 @@ const Project = () => {
       </SingleProject>
 
       <SingleProject
-        title='Ecommerce Website'
+        title='Easy Money'
         subTitle='Next JS'
         description='A Personal Portfolio website to showcase all my details and projects
           at one place. A Personal Portfolio website to showcase all my details

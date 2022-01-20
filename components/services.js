@@ -23,7 +23,8 @@ const Services = () => {
           <SingleService
             icon='paint-brush'
             title='UI/UX Design'
-            description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
+            description='I create user-friendly interfaces that enable users to understand how to use complex technical products.
+             Our designs are simple and intuitive, and they are easy to use.'
             className='mt-5'
           />
         </Fade>
