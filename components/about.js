@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div
       id='about'
-      className='about-page md:px-8 px-4 bg-marron md:mt-0 mt-32  min-h-[400px] text-white pt-16'
+      className='about-page lg:px-16 md:px-10 sm:px-8 px-4  bg-marron md:mt-0 mt-32  min-h-[400px] text-white pt-16'
     >
       <div className='py-8'>
         <Fade cascade={true} direction='bottom' duration={1000}>
@@ -33,7 +33,7 @@ const AboutPage = () => {
 
       <div className=' md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose'>
         <Fade direction='left' duration={2000} triggerOnce={true}>
-          <div className='not-italic'>
+          <div className='not-italic  '>
             {` I'm a Full Stack Web
             developer passionated about building beautiful and clean apps. I'm a
             co-founder of masterweb which mostly does designs and content
@@ -43,7 +43,7 @@ const AboutPage = () => {
         </Fade>
 
         <Fade direction='right' duration={3000} triggerOnce={true}>
-          <div>
+          <div className=''>
             <Image
               src='/design.svg'
               width='400px'

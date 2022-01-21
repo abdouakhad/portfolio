@@ -13,12 +13,12 @@ const Services = () => {
           </h1>
           <p className='text-center text-2xl flex justify-center items-center'>
             <div className='w-4/12 mt-5 bg-marron h-5 text-center rounded-xl flex justify-center items-center'>
-              <div className='w-5/12 bg-vert rounded-xl h-full'></div>
+              <div className='w-5/12 bg-vert rounded-xl h-full  '></div>
             </div>
           </p>
         </Fade>
       </div>
-      <div className='grid md:grid-cols-3 grid-cols-1 gap-4 '>
+      <div className='grid md:grid-cols-3 grid-cols-1 hover:gap-y-6 gap-4 '>
         <Fade cascade duration={2000} direction='left'>
           <SingleService
             icon='paint-brush'

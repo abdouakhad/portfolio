@@ -8,13 +8,13 @@ const Social = () => {
   return (
     <>
       <div className='my-4 bg-marron py-2 flex justify-around xs:w-9/12 w-11/12 rounded-lg'>
-        <Link href='/'>
+        <Link href='https://github.com/abdouakhad'>
           <a className='transition transform ease-in-out duration-500 hover:scale-110 '>
             <FontAwesomeIcon icon={['fab', 'github']} color='white' size='3x' />
           </a>
         </Link>
 
-        <Link href='/'>
+        <Link href='https://www.linkedin.com/in/abdoul-akhad-top-a49957195/'>
           <a className='transition transform ease-in-out duration-500 hover:scale-110'>
             <FontAwesomeIcon
               icon={['fab', 'linkedin']}

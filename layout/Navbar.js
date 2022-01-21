@@ -21,8 +21,8 @@ export const Navbar = () => {
         <nav
           className={`${
             scroll
-              ? 'flex items-center flex-wrap bg-marron text-white py-3 lg:px-12 md:px-10 sm:px-8 px-4 font-myFont'
-              : 'flex items-center flex-wrap bg-white py-3 lg:px-12 md:px-10 sm:px-8 px-4 font-myFont'
+              ? 'flex items-center flex-wrap bg-marron text-white py-3 lg:px-20 md:px-12 sm:px-8 px-4 font-myFont'
+              : 'flex items-center flex-wrap bg-white py-3 font-myFont lg:px-20 md:px-12 sm:px-8 px-4'
           } `}
         >
           <Link href='/'>
@@ -97,6 +97,7 @@ export const Navbar = () => {
           </div>
         </nav>
       </div>
+      <div className='md:h-0 h-8 text-black border'>Hello akhad</div>
     </>
   )
 }

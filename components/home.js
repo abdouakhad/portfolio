@@ -13,14 +13,13 @@ const HomePage = () => {
   useEffect(() => {
     gsap.fromTo(
       imageRef.current,
-      { x: 0, y: 400, rotation: 180, scale: 0 },
+      { x: 0, y: 400, rotation: 180 },
       {
         duration: 5,
         x: 0,
         y: 0,
         rotation: 0,
         opacity: 1,
-        scale: 1,
         ease: 'elastic.out(1,0.9)',
       }
     )
@@ -32,9 +31,9 @@ const HomePage = () => {
   }, [])
   return (
     <div id='#home' className='relative md:mt-20'>
-      <div className=' h-[490px] absolute  md:text-left text-center  m-auto  z-10 grid md:grid-cols-2 grid-cols-1 justify-center items-center w-full lg:px-8 md:px-1 px-0 '>
+      <div className=' h-[490px] absolute  md:text-left text-center  m-auto  z-10 grid md:grid-cols-2 grid-cols-1 justify-center items-center w-full  '>
         <div className=' md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 lg:text-3xl text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight'>
-          <div ref={textRef} className='opacity-0'>
+          <div ref={textRef} className='opacity-0 mt-8 text-center'>
             Hello, my name is <br></br>
             <span className='uppercase font-black text-3xl'>
               Akhad Top

@@ -18,7 +18,9 @@ const SingleService = ({ icon, title, description }) => {
     <div
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
-      className=' mt-10 bg-marron h-full text-white rounded-lg py-2 sm:px-6 px-8 flex flex-col text-center justify-center items-center transition transform  duration-700 hover:bg-vert hover:text-marron hover:scale-105'
+      className=' mt-10 bg-marron h-full text-white rounded-lg py-2 sm:px-6 px-8 flex flex-col text-center justify-center items-center 
+      transition transform  duration-700 hover:bg-vert hover:text-marron hover:shadow-2xl hover:shadow-vert 
+      hover:translate-y-2'
     >
       <p className='inline '>
         <FontAwesomeIcon
@@ -26,8 +28,8 @@ const SingleService = ({ icon, title, description }) => {
           color={state === true ? '#333333 ' : '#fff'}
           className={
             state === true
-              ? 'rounded-full mt-2 ring-4 ring-marron ring-offset-8 ring-offset-vert'
-              : 'rounded-full mt-2 ring-4 ring-white ring-offset-8 ring-offset-marron'
+              ? 'rounded-full mt-2 ring-4 ring-marron ring-offset-8 ring-offset-vert shadow-xl shadow-marron  animate-bounce '
+              : 'rounded-full mt-2 ring-4 ring-white ring-offset-8 ring-offset-marron  shadow-xl shadow-marron'
           }
           size='3x'
         />{' '}
