@@ -34,7 +34,7 @@ const HomePage = () => {
       <div className=' h-[490px] absolute  md:text-left text-center  m-auto  z-10 grid md:grid-cols-2 grid-cols-1 justify-center items-center w-full  '>
         <div className=' md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 lg:text-3xl text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight'>
           <div ref={textRef} className='opacity-0 mt-8 text-center'>
-            Hello, my name is <br></br>
+            Hello World, my name is <br></br>
             <span className='uppercase font-black text-3xl'>
               Akhad Top
             </span>{' '}
