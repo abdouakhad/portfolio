@@ -9,15 +9,23 @@ const WorkHistory = () => {
     <div>
       <SingleEducation
         title='DAUST University'
-        subTitle='A Personal Portfolio website to showcase all my details and projects at one place.'
-        year='2019-2020'
-        description='I am currently pursuing my B.Tech in Computer Science and Engineering from DAUST University. '
+        subTitle='Tutoring'
+        year='2019'
+        description='I received an offer to teach students right after my freshman year. 
+        I helped students with their lessons and homework.'
       />
       <SingleEducation
-        title='DAUST University'
-        subTitle='A Personal Portfolio website to showcase all my details and projects at one place.'
-        year='2021-2022'
-        description='I am currently pursuing my B.Tech in Computer Science and Engineering from DAUST University. '
+        title='Work For A Doctor'
+        subTitle=''
+        year='2020'
+        description='Interested in machine learning and artificial intelligence at an early age, I started learning statistics, which allowed me to work for a doctor during my summer vacation 2020.'
+      />
+      <SingleEducation
+        title='Easy Money'
+        subTitle='Web App'
+        year='2020-Now'
+        description='I have been working for a company called Easy Money in my spare time since 2020 where we develop and maintain a product management site
+        and an e-commerce website.'
       />
     </div>
   )

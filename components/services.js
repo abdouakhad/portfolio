@@ -23,8 +23,8 @@ const Services = () => {
           <SingleService
             icon='paint-brush'
             title='UI/UX Design'
-            description='I create user-friendly interfaces that enable users to understand how to use complex technical products.
-             Our designs are simple and intuitive, and they are easy to use.'
+            description='I create user-friendly interfaces.
+             My designs are simple and intuitive, and they are easy to use.'
             className='mt-5'
           />
         </Fade>
@@ -32,7 +32,7 @@ const Services = () => {
           <SingleService
             icon='file-code'
             title='Web App'
-            description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
+            description='I code the FRONT-END and the BACK-END of your website. I use the latest technologies to create a fast and responsive website.'
             className='mt-5'
           />
         </Fade>
@@ -40,7 +40,7 @@ const Services = () => {
           <SingleService
             icon='server'
             title='Deploy App'
-            description='This is a personal portfolio website made with React.js This is a personal portfolio website made with React.js'
+            description='I will enable and configure all necessary requirements to help you host your app in the inernet.'
             className='mt-5'
           />
         </Fade>

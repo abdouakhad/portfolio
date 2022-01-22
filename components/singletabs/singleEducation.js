@@ -14,11 +14,8 @@ const singleEducation = ({ title, subTitle, year, description }) => {
           </h1>
           <p className='bg-vert rounded-md px-2'>{year}</p>
         </div>
-        <p className='pl-5 not-italic'>
-          {subTitle}:{' '}
-          <span className='not-italic'>Next Js && Tailwind CSS</span>
-        </p>
-        <p className='not-italic pl-5 tracking-widest text-xs font-extralight'>
+        <p className='pl-5 not-italic'>{subTitle} </p>
+        <p className='not-italic pl-5 leading-relaxed tracking-widest text-xs font-extralight'>
           {description}
         </p>
       </div>
