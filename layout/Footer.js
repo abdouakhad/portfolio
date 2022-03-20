@@ -16,8 +16,11 @@ const Footer = () => {
       duration={2000}
       triggerOnce={true}
     >
-      <div className='bg-white text-xl font-semibold flex leading-loose tracking-wider flex-col items-center justify-center text-marron py-10 mt-10'>
-        <p> © Akhad {year}. All rights reserved. </p>
+      <div className='bg-white md:text-xl font-semibold text-base text-center flex leading-loose tracking-wider flex-col items-center justify-center text-marron py-5 mt-10'>
+        <p>
+          {' '}
+          © Akhad {year}. <br /> All rights reserved.{' '}
+        </p>
         <p>Built with ❤️ in Somone, SN</p>
       </div>
     </Fade>

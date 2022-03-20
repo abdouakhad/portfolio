@@ -21,6 +21,7 @@ import {
   faServer,
   faCode,
   faEye,
+  faBars,
   faArrowAltCircleUp,
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
@@ -41,6 +42,7 @@ library.add(
   faServer,
   faCode,
   faEye,
+  faBars,
   faArrowAltCircleUp
 )
 import Layout from '../layout/Layout'
