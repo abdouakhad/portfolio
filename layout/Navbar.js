@@ -67,7 +67,7 @@ export const Navbar = () => {
           <div
             className={`${
               active ? '' : 'hidden'
-            }   w-full lg:inline-flex lg:flex-grow lg:w-auto bg-marron border-4 border-white shadow shadow-white text-white px-4 py-2 rounded`}
+            }   w-full lg:inline-flex lg:flex-grow lg:w-auto lg:bg-white lg:text-marron bg-marron border-4 border-white shadow shadow-white text-white px-4 py-2 rounded`}
           >
             <div className=' lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col gap-10 lg:h-auto '>
               <Link href='/'>
