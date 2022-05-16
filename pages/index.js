@@ -4,6 +4,7 @@ import AboutPage from "../components/About"
 import ResumePage from "../components/Resume"
 import Services from "../components/Services"
 import Contact from "../components/Contact"
+
 const Home = () => {
   return (
     <div className="">
