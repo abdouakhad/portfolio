@@ -9,7 +9,7 @@ const Contact = () => {
         <Fade
           cascade={true}
           direction="bottom"
-          duration={2000}
+          duration={200}
           triggerOnce={false}
         >
           <h1 className="text-center text-4xl">Contact Me</h1>

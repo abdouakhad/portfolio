@@ -23,7 +23,7 @@ const ResumePage = () => {
           <Fade
             cascade={true}
             direction="bottom"
-            duration={2000}
+            duration={100}
             triggerOnce={false}
           >
             <h1 className="text-center text-4xl">Resume</h1>
@@ -40,7 +40,7 @@ const ResumePage = () => {
         <div className="resume py-5 mt-16   md:grid  md:grid-cols-4 grid-cols-1 justify-center items-center gap-4 ">
           <Fade
             cascade={true}
-            duration={1000}
+            duration={100}
             direction="left"
             triggerOnce={true}
           >

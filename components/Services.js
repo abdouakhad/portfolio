@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div id="services" className="services mt-5  md:px-8 px-6">
       <div className="py-8">
-        <Fade cascade={true} direction="bottom" duration={1000}>
+        <Fade cascade={true} direction="bottom" duration={100}>
           <h1 className="text-center text-4xl">My services</h1>
           <h1 className="text-center text-2xl mt-4 text-vert">
             What I provide?
@@ -19,7 +19,7 @@ const Services = () => {
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 hover:gap-y-6 gap-4 ">
         <div>
-          <Fade cascade duration={1000} direction="left">
+          <Fade cascade duration={100} direction="left">
             <SingleService
               icon="paint-brush"
               title="UI/UX Design"
@@ -30,7 +30,7 @@ const Services = () => {
           </Fade>
         </div>
         <div>
-          <Fade cascade duration={1000} direction="bottom">
+          <Fade cascade duration={100} direction="bottom">
             <SingleService
               icon="file-code"
               title="Web App"
@@ -40,7 +40,7 @@ const Services = () => {
           </Fade>
         </div>
         <div>
-          <Fade cascade duration={1000} direction="right">
+          <Fade cascade duration={100} direction="right">
             <SingleService
               icon="mobile"
               title="Deploy App"

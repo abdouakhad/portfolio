@@ -1,7 +1,7 @@
 import { Fade } from "react-awesome-reveal"
 const SingleProject = ({ title, children, subTitle, description }) => {
   return (
-    <Fade cascade duration={2000} direction="bottom">
+    <Fade cascade duration={200} direction="bottom">
       <div className="mr-2 z-20 shadow project leading-loose mt-4 bg-white text-marron rounded p-2 transition transform  hover:shadow-xl hover:cursor-crosshair ease-in-out duration-300">
         <div className="flex justify-between">
           <h1 className=" text-xl font-black relative ">

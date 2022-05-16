@@ -11,7 +11,7 @@ const AboutPage = () => {
       className="about-page lg:px-16 md:px-10 sm:px-8 px-4  bg-marron md:mt-0 mt-32  min-h-[400px] text-white pt-16"
     >
       <div className="py-8">
-        <Fade cascade={true} direction="bottom" duration={1000}>
+        <Fade cascade={true} direction="bottom" duration={100}>
           <h1 className="text-center text-4xl">About me</h1>
           <p className="text-center text-2xl">
             <FontAwesomeIcon
@@ -32,7 +32,7 @@ const AboutPage = () => {
       </div>
 
       <div className=" md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose">
-        <Fade direction="left" duration={2000} triggerOnce={true}>
+        <Fade direction="left" duration={200} triggerOnce={true}>
           <div className="not-italic  ">
             {` I'm a Full Stack Web
             developer passionated about building beautiful and clean apps. I'm a
@@ -42,7 +42,7 @@ const AboutPage = () => {
           </div>
         </Fade>
 
-        <Fade direction="right" duration={3000} triggerOnce={true}>
+        <Fade direction="right" duration={300} triggerOnce={true}>
           <div className="">
             <Image
               src="/design.svg"
