@@ -1,5 +1,4 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Fade } from "react-awesome-reveal"
 import SingleService from "./services/SingleService"
 const Services = () => {
@@ -19,31 +18,37 @@ const Services = () => {
         </Fade>
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 hover:gap-y-6 gap-4 ">
-        <Fade cascade duration={2000} direction="left">
-          <SingleService
-            icon="paint-brush"
-            title="UI/UX Design"
-            description="I create user-friendly interfaces.
+        <div>
+          <Fade cascade duration={1000} direction="left">
+            <SingleService
+              icon="paint-brush"
+              title="UI/UX Design"
+              description="I create user-friendly interfaces.
              My designs are simple and intuitive, and they are easy to use."
-            className="mt-5"
-          />
-        </Fade>
-        <Fade cascade duration={2000} direction="bottom">
-          <SingleService
-            icon="file-code"
-            title="Web App"
-            description="I code the FRONT-END and the BACK-END of your website. I use the latest technologies to create a fast and responsive website."
-            className="mt-5"
-          />
-        </Fade>
-        <Fade cascade duration={2000} direction="right">
-          <SingleService
-            icon="server"
-            title="Deploy App"
-            description="I will enable and configure all necessary requirements to help you host your app in the inernet."
-            className="mt-5"
-          />
-        </Fade>
+              className="mt-5"
+            />
+          </Fade>
+        </div>
+        <div>
+          <Fade cascade duration={1000} direction="bottom">
+            <SingleService
+              icon="file-code"
+              title="Web App"
+              description="I code the FRONT-END and the BACK-END of your website. I use the latest technologies to create a fast and responsive website."
+              className="mt-5"
+            />
+          </Fade>
+        </div>
+        <div>
+          <Fade cascade duration={1000} direction="right">
+            <SingleService
+              icon="mobile"
+              title="Deploy App"
+              description="With the React Native library, I  design a good UI/UX and build cross-platform apps that works with ios and android."
+              className="mt-5"
+            />
+          </Fade>
+        </div>
       </div>
     </div>
   )
