@@ -96,7 +96,7 @@ const Forms = () => {
                 send
               </button>
               {done && (
-                <p className="bg-vert lg:text-2xl md:text-xl sm:text-2xl text-xl lg:px-4 px-2 py-2 rounded">
+                <p className="bg-marron text-white text-xl mx-4 lg:px-4 px-2 py-1 rounded">
                   Thanks for your message!
                 </p>
               )}

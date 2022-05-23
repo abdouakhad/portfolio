@@ -25,7 +25,7 @@ const SingleService = ({ icon, title, description }) => {
       <p className="inline ">
         <FontAwesomeIcon
           icon={icon}
-          color={state === true ? "#333333 " : "#fff"}
+          color={state === true ? "#333333 " : "#333333"}
           className={
             state === true
               ? "rounded-full mt-2 ring-4 ring-marron ring-offset-8 ring-offset-vert shadow-xl shadow-marron  animate-bounce "
