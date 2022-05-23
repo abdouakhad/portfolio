@@ -17,15 +17,15 @@ const ResumePage = () => {
         id="#resumes"
         className="  about-page bg-marron py-10 text-white  md:px-8 px-4"
       >
-        <section className="title">
+        <section className="title italic">
           <Fade
             cascade={true}
             direction="bottom"
             duration={100}
             triggerOnce={false}
           >
-            <h1 className="text-center text-4xl">Resume</h1>
-            <p className="text-center text-2xl text-vert mb-6">
+            <h1 className="text-center text-4xl italic">Resume</h1>
+            <p className="text-center text-2xl italic text-vert mb-6">
               My Formal Bio Details
             </p>
           </Fade>

@@ -45,24 +45,26 @@ const Forms = () => {
             className="bg-white rounded py-6 text-marron   px-4 "
           >
             <div className="mb-4">
+              <label className="">Name</label>
               <input
-                className="bg-gray-200 text-marron  appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:border-vertClair"
+                className=" text-marron  appearance-none border border-marron  rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:border-vertClair"
                 id="name"
                 type="text"
                 name="name"
-                placeholder="name"
+                // placeholder="name"
                 autoComplete="name"
                 required
               />
             </div>
             <div className="mb-4">
+              <label className="">Email</label>
               <input
-                className="bg-gray-200 text-marron  appearance-none border rounded w-full py-2 px-3  mb-3 leading-tight focus:outline-none focus:shadow-outline focus:border-vertClair"
+                className=" text-marron  appearance-none border border-marron  rounded w-full py-2 px-3  mb-3 leading-tight focus:outline-none focus:shadow-outline focus:border-vertClair"
                 id="email"
                 // name='email'
                 type="email"
                 name="email"
-                placeholder="email"
+                // placeholder="email"
                 required
               />
               <p className="text-marron opacity-80 text-xs italic">
@@ -70,13 +72,14 @@ const Forms = () => {
               </p>
             </div>
             <div className="mb-6">
+              <label className="">Message</label>
               <textarea
                 required
                 id="message"
                 name="message"
                 type="text"
-                placeholder="message"
-                className="w-full h-16 px-3 py-2 text-base bg-gray-200 text-marron focus:outline-none focus:border-vertClair border rounded focus:shadow-outline"
+                // placeholder="message"
+                className="w-full h-16 px-3 py-2 text-base border-marron text-marron focus:outline-none focus:border-vertClair border rounded focus:shadow-outline"
               ></textarea>
             </div>
             <div className="flex items-center justify-between ">

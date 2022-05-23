@@ -12,8 +12,10 @@ const Contact = () => {
           duration={200}
           triggerOnce={false}
         >
-          <h1 className="text-center text-4xl">Contact Me</h1>
-          <p className="text-center text-2xl text-vert mb-6">Get In Touch</p>
+          <h1 className="text-center text-4xl italic">Contact Me</h1>
+          <p className="text-center text-2xl italic text-vert mb-6">
+            Get In Touch
+          </p>
         </Fade>
 
         <p className="md:w-2/12 w-4/12 h-2  bg-vert m-auto "></p>

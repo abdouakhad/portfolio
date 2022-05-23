@@ -21,7 +21,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="fixed z-30 top-0 left-0 w-full text-marron">
+      <div className="fixed z-30 top-0 left-0 w-full text-marron italic">
         <nav
           className={`${
             scroll

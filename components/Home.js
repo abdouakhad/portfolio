@@ -30,15 +30,12 @@ const HomePage = () => {
     )
   }, [])
   return (
-    <div id="#home" className="relative md:mt-20">
-      <div className=" h-[490px]   md:text-left text-center  m-auto  z-10 grid md:grid-cols-2 grid-cols-1 justify-center items-center w-full  ">
-        <div className=" md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 lg:text-3xl text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight">
-          <div ref={textRef} className="opacity-0 mt-8 text-center">
+    <div id="#home" className="relative md:mt-20 container mx-auto">
+      <div className="  md:text-left text-center  m-auto  z-10 grid md:grid-cols-2 grid-cols-1 justify-center items-center w-full  ">
+        <div className=" md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight">
+          <div ref={textRef} className="opacity-0 mt-8 ">
             Hello World, my name is <br></br>
-            <span className="uppercase font-black text-3xl">
-              Akhad Top
-            </span>{" "}
-            <br />
+            <span className="uppercase font-black ">Akhad Top</span> <br />
             and I am a {""}
             <span className="text-vert font-black shadow-xl bg-marron rounded p-2">
               <Typical
@@ -55,6 +52,11 @@ const HomePage = () => {
                 wrapper="b"
               />{" "}
             </span>
+            <div className="text-base mt-4 leading-loose tracking-wider">
+              Computer Science Student with 4 years of hands-on experience
+              building and testing web and for months now start developing
+              mobile applications for Android, iOS.
+            </div>
           </div>
         </div>
         <section className=" image self-center overflow-hidden pb-0 text-center md:bg-transparent bg-white  w-full ">
@@ -62,13 +64,13 @@ const HomePage = () => {
           {/* <Fade duration={3000} direction='right' triggerOnce={true}>  */}
           <div className="opacity-0" ref={imageRef}>
             <Image
-              src="/nobg.svg"
+              src="/web1.svg"
               priority="true"
               width="400px"
               height="400px"
               objectFit="contain"
               alt="image"
-              className="transition transform hover:scale-95 w-full scale-90 ease-in-out duration-1000 rounded-full border-2 ring-2 ring-offset-8 ring-marron ring-offset-marron  shadow-lg "
+              className="transition transform hover:scale-95 w-full scale-90 ease-in-out duration-1000  border-2 ring-2 ring-offset-8 ring-marron ring-offset-marron  shadow-lg "
             />
           </div>
           {/* </Fade> */}

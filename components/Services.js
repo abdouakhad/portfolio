@@ -6,8 +6,8 @@ const Services = () => {
     <div id="services" className="services mt-5  md:px-8 px-6">
       <div className="py-8">
         <Fade cascade={true} direction="bottom" duration={100}>
-          <h1 className="text-center text-4xl">My services</h1>
-          <h1 className="text-center text-2xl mt-4 text-vert">
+          <h1 className="text-center text-4xl italic">My services</h1>
+          <h1 className="text-center text-2xl mt-4 text-vert italic">
             What I provide?
           </h1>
           <p className="text-center text-2xl flex justify-center items-center">

@@ -12,7 +12,7 @@ const AboutPage = () => {
     >
       <div className="py-8">
         <Fade cascade={true} direction="bottom" duration={100}>
-          <h1 className="text-center text-4xl">About me</h1>
+          <h1 className="text-center text-4xl italic">About me</h1>
           <p className="text-center text-2xl">
             <FontAwesomeIcon
               icon="grip-lines"
@@ -20,7 +20,7 @@ const AboutPage = () => {
               size="lg"
               className="shadow-xl"
             />{" "}
-            <span className="text-vert">Why choose me </span>
+            <span className="text-vert italic">Why choose me </span>
             <FontAwesomeIcon
               icon="grip-lines"
               color="#04DDB2"
