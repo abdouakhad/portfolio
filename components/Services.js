@@ -43,7 +43,7 @@ const Services = () => {
           <Fade cascade duration={100} direction="right">
             <SingleService
               icon="mobile"
-              title="Deploy App"
+              title="Mobile App"
               description="With the React Native library, I  design a good UI/UX and build cross-platform apps that works with ios and android."
               className="mt-5"
             />
