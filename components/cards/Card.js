@@ -11,9 +11,9 @@ const Card = ({ section }) => {
       duration={100}
       triggerOnce={true}
     >
-      <div className="p-2 h-full rounded bg-gradient-to-r from-marron to-vert ">
-        <div className="rounded md:px-8 border-2 h-full  bg-white p-2 ">
-          <div className="tracking-wider lg:text-4xl md:text-2xl text-xl ">
+      <div className="p-2 h-full  ">
+        <div className="rounded md:px-8 h-full  bg-white p-2 ">
+          <div className="tracking-wider text-center lg:text-xl  text-lg ">
             Get In Touch!
           </div>
           <Fade

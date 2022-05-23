@@ -21,9 +21,13 @@ const Contact = () => {
         <p className="md:w-3/12 w-5/12 m-auto h-2 bg-marron flex relative "></p>
         <p className="md:w-3/12 w-5/12 m-auto h-2 bg-marron flex relative  "></p>
       </section>
-      <div className="mt-16 py-10 bg-marron grid md:grid-cols-2 grid-cols-1 gap-4  lg:px-8 px-4">
-        <Form />
-        <Card />
+      <div className="mt-16 py-10 grid md:grid-cols-2 grid-cols-1 gap-4 lg:px-8 px-4">
+        <div className=" col-span-1">
+          <Form />
+        </div>
+        <div className="col-span-1">
+          <Card />
+        </div>
       </div>
     </div>
   )

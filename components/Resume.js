@@ -15,7 +15,7 @@ const ResumePage = () => {
     <>
       <article
         id="#resumes"
-        className="  about-page bg-marron pb-10 text-white  md:px-8 px-4"
+        className="  about-page bg-marron py-10 text-white  md:px-8 px-4"
       >
         <section className="title">
           <Fade

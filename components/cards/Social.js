@@ -7,10 +7,10 @@ import Link from "next/link"
 const Social = () => {
   return (
     <>
-      <div className="my-4 bg-marron py-2 flex justify-around xs:w-9/12 w-11/12 rounded-lg">
+      <div className="my-4  py-2 flex gap-4 text-center justify-center items-center  rounded-lg">
         <Link href="https://github.com/abdouakhad">
           <a className="transition transform ease-in-out duration-500 hover:scale-110 ">
-            <FontAwesomeIcon icon={["fab", "github"]} color="white" size="3x" />
+            <FontAwesomeIcon icon={["fab", "github"]} color="black" size="2x" />
           </a>
         </Link>
 
@@ -18,8 +18,8 @@ const Social = () => {
           <a className="transition transform ease-in-out duration-500 hover:scale-110">
             <FontAwesomeIcon
               icon={["fab", "linkedin"]}
-              color="white"
-              size="3x"
+              color="black"
+              size="2x"
             />
           </a>
         </Link>
@@ -28,8 +28,8 @@ const Social = () => {
           <a className="transition transform ease-in-out duration-500 hover:scale-110">
             <FontAwesomeIcon
               icon={["fab", "facebook"]}
-              color="white"
-              size="3x"
+              color="black"
+              size="2x"
             />
           </a>
         </Link>
@@ -38,8 +38,8 @@ const Social = () => {
           <a className="transition transform ease-in-out duration-500 hover:scale-110">
             <FontAwesomeIcon
               icon={["fab", "instagram"]}
-              color="white"
-              size="3x"
+              color="black"
+              size="2x"
             />
           </a>
         </Link>
@@ -48,7 +48,7 @@ const Social = () => {
       <div className="relative md:w-full rounded">
         <Image
           className="rounded  bg-marron"
-          src="/email2.png"
+          src="/email.jpeg"
           width="620px"
           height="200px"
           priority
