@@ -42,7 +42,7 @@ const ResumePage = () => {
             direction="left"
             triggerOnce={true}
           >
-            <div className="border-4 p-4  border-marron md:col-span-2 name grid grid-cols-12 text-lg  ">
+            <div className="lg:h-[350px] border-4 p-4  border-marron md:col-span-2 name grid grid-cols-12 text-lg  ">
               <div className=" sm:col-span-1 col-span-2 pr-2 bg-marron text-white rounded text-center">
                 <p className="py-2  "> &nbsp;</p>
                 <p className="py-2  ">
@@ -140,7 +140,7 @@ const ResumePage = () => {
             </div>
           </Fade>
 
-          <div className="w-full h-full p-4 border-marron border-4 rounded scrollbar   overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 ">
+          <div className="w-full h-[350px] p-4 border-marron border-4 rounded scrollbar   overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 ">
             {active === "project" && <Project />}
             {active === "skills" && <Skills />}
             {active === "education" && <Education />}
