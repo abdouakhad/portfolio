@@ -6,6 +6,7 @@ const Project = () => {
   return (
     <>
       <SingleProject
+        link="https://toptop-five.vercel.app/"
         title="TopTop E-commerce Website"
         subTitle="Next js & Tailwind CSS "
         description="TopTop is an e-commerce website where users can buy products. They also have ability to create their own shop and sell their products. 
@@ -40,6 +41,7 @@ const Project = () => {
         </p>
       </SingleProject> */}
       <SingleProject
+        link="https://www.africagovernanceinstitute.org/"
         title="IAG Company"
         subTitle="HTML, CSS && JS"
         description={`IAG is a company that aims to contribute to the development of endogenous thinking to meet the challenges of governance in Africa. I collaborated with them to create a website that is a platform for the company to share their ideas and projects.`}

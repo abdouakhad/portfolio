@@ -17,8 +17,6 @@ const ResumePage = () => {
         id="#resumes"
         className="  about-page bg-marron pb-10 text-white  md:px-8 px-4"
       >
-        <div className=" h-2 rounded-lg bg-gradient-to-r from-white to-vert animate-pulse md:mb-0 mb-16"></div>
-        <h1 id="#resume" className="mt-10"></h1>
         <section className="title">
           <Fade
             cascade={true}

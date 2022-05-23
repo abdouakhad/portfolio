@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div
       id="about"
-      className="about-page lg:px-16 md:px-10 sm:px-8 px-4  bg-marron md:mt-0 mt-32  min-h-[400px] text-white pt-16"
+      className="about-page lg:px-16 md:px-10 sm:px-8 px-4  bg-white md:mt-0 mt-32  min-h-[400px] text-marron pt-16"
     >
       <div className="py-8">
         <Fade cascade={true} direction="bottom" duration={100}>
