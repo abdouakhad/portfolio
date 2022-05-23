@@ -4,7 +4,7 @@ import Form from "./cards/Forms"
 import Card from "./cards/Card"
 const Contact = () => {
   return (
-    <div className="mt-32 " id="contact">
+    <div className="mt-8 " id="contact">
       <section className="title bg-marron text-white py-8">
         <Fade
           cascade={true}
@@ -23,7 +23,7 @@ const Contact = () => {
         <p className="md:w-3/12 w-5/12 m-auto h-1 bg-white flex relative "></p>
         <p className="md:w-3/12 w-5/12 m-auto h-1 bg-white flex relative  "></p>
       </section>
-      <div className="mt-16 py-10 grid md:grid-cols-2 grid-cols-1 gap-4 lg:px-8 px-4">
+      <div className=" py-4 grid md:grid-cols-2 grid-cols-1 gap-4 lg:px-8 px-4">
         <div className=" col-span-1">
           <Form />
         </div>
