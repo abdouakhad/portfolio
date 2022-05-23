@@ -8,9 +8,9 @@ const AboutPage = () => {
   return (
     <div
       id="about"
-      className="about-page lg:px-16 md:px-10 sm:px-8 px-4  bg-white md:mt-0 mt-32  min-h-[400px] text-marron pt-16"
+      className="about-page   bg-white md:mt-0 mt-32  min-h-[400px] text-marron pt-16"
     >
-      <div className="py-8">
+      <div className="py-4 bg-marron text-white">
         <Fade cascade={true} direction="bottom" duration={100}>
           <h1 className="text-center text-4xl italic">About me</h1>
           <p className="text-center text-2xl">
@@ -31,7 +31,7 @@ const AboutPage = () => {
         </Fade>
       </div>
 
-      <div className=" md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose">
+      <div className="lg:px-16 md:px-10 sm:px-8 px-4  md:grid md:grid-cols-2 justify-center items-center text-center tracking-widest leading-loose">
         <Fade direction="left" duration={200} triggerOnce={true}>
           <div className="not-italic  ">
             {` I'm a Full Stack Web

@@ -4,7 +4,7 @@ import Link from "next/link"
 const SingleProject = ({ title, children, subTitle, description, link }) => {
   return (
     <Fade cascade duration={200} direction="bottom">
-      <div className="mr-2 z-20 shadow project leading-loose mt-4 bg-white text-marron rounded p-2 transition transform  hover:shadow-xl hover:cursor-crosshair ease-in-out duration-300">
+      <div className="mr-2 z-20 shadow project leading-loose mt-4 border border-marron border-dashed bg-white text-marron rounded p-2 transition transform  hover:shadow-xl hover:cursor-crosshair ease-in-out duration-300">
         <div className="flex justify-between">
           {link ? (
             <Link href={link}>

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React, { useEffect, useState } from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false)
@@ -18,26 +18,26 @@ export default function ScrollToTop() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     })
   }
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleVisibility)
+    window.addEventListener("scroll", toggleVisibility)
   }, [])
 
   return (
-    <div className='scroll-to-top'>
+    <div className="scroll-to-top">
       {isVisible && (
         <div
-          className='fixed bottom-10 right-12 cursor-pointer'
+          className="fixed bottom-10 right-12 cursor-pointer"
           onClick={scrollToTop}
         >
           <FontAwesomeIcon
-            icon='arrow-alt-circle-up'
-            size='3x'
-            color='#04DDB2'
-            className='animate-bounce rounded-full ring-2 ring-offset-4 ring-offset-white ring-marron '
+            icon="arrow-alt-circle-up"
+            size="3x"
+            color="#04DDB2"
+            className=" rounded-full ring-2 ring-offset-4 ring-offset-white ring-marron "
           />
         </div>
       )}

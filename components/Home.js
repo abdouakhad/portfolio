@@ -35,7 +35,8 @@ const HomePage = () => {
         <div className=" md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight">
           <div ref={textRef} className="opacity-0 mt-8 ">
             Hello World, my name is <br></br>
-            <span className="uppercase font-black ">Akhad Top</span> <br />
+            <span className="uppercase font-black ">Abdoul Akhad Top</span>{" "}
+            <br />
             and I am a {""}
             <span className="text-vert font-black shadow-xl bg-marron rounded p-2">
               <Typical
@@ -53,9 +54,9 @@ const HomePage = () => {
               />{" "}
             </span>
             <div className="text-base mt-4 leading-loose tracking-wider">
-              Computer Science Student with 4 years of hands-on experience
-              building and testing web and for months now start developing
-              mobile applications for Android, iOS.
+              I am a Computer Science Student with 4 years of hands-on
+              experience building, testing web apps and developing mobile
+              applications for Android, iOS.
             </div>
           </div>
         </div>

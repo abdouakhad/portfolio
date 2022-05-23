@@ -3,21 +3,21 @@ import { Fade } from "react-awesome-reveal"
 import SingleService from "./services/SingleService"
 const Services = () => {
   return (
-    <div id="services" className="services mt-5  md:px-8 px-6">
-      <div className="py-8">
+    <div id="services" className="services mt-5  ">
+      <div className="py-4 bg-marron text-white">
         <Fade cascade={true} direction="bottom" duration={100}>
           <h1 className="text-center text-4xl italic">My services</h1>
           <h1 className="text-center text-2xl mt-4 text-vert italic">
             What I provide?
           </h1>
           <p className="text-center text-2xl flex justify-center items-center">
-            <div className="w-4/12 mt-5 bg-marron h-5 text-center rounded-xl flex justify-center items-center">
+            <div className="w-4/12 mt-5 bg-white h-5 text-center rounded-xl flex justify-center items-center">
               <div className="w-5/12 bg-vert rounded-xl h-full  "></div>
             </div>
           </p>
         </Fade>
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-1 hover:gap-y-6 gap-4 ">
+      <div className="md:px-8 px-6 grid md:grid-cols-3 grid-cols-1 hover:gap-y-6 gap-4 ">
         <div>
           <Fade cascade duration={100} direction="left">
             <SingleService

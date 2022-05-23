@@ -8,7 +8,7 @@ const singleSkills = ({ skill, src, width = "30px", height = "30px" }) => {
       <Fade cascade duration={200} direction="right">
         <div className="w-full mt-8">
           <h1 className=" text-xl font-black relative ">
-            <span className=" align-text-bottom  flex gap-2">
+            <span className=" align-text-bottom text-black flex gap-2">
               <span className="h-4 w-4 align-middle text- inline-block bg-gradient-to-t from-white to-marron  rounded-full">
                 &nbsp;
               </span>{" "}
