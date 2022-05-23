@@ -21,7 +21,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className=" z-30 top-0 left-0 w-full text-marron italic">
+      <div className=" z-30  w-full text-marron italic">
         <nav className="flex items-center flex-wrap bg-white py-3 font-myFont lg:px-20 md:px-12 sm:px-8 px-4">
           <Link href="/">
             <a

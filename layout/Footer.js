@@ -16,7 +16,7 @@ const Footer = () => {
       duration={200}
       triggerOnce={true}
     >
-      <div className="bg-white md:text-xl font-semibold text-base text-center flex leading-loose tracking-wider flex-col items-center justify-center text-marron py-5 mt-10">
+      <div className="bg-white md:text-xl font-semibold text-base text-center flex leading-loose tracking-wider flex-col items-center justify-center text-marron py-5">
         <p>
           {" "}
           © Akhad {year}. <br /> All rights reserved.{" "}

@@ -35,34 +35,34 @@ const ResumePage = () => {
           <p className="w-3/12 m-auto h-2 bg-white flex relative rounded "></p>
         </section>
 
-        <div className="resume py-5 mt-16 md:grid  md:grid-cols-4 grid-cols-1 md:px-8 px-4 justify-center items-center gap-4 ">
+        <div className="resume py-5 mt-8 md:grid  md:grid-cols-4 grid-cols-1 md:px-8 px-4 justify-center items-center gap-4 ">
           <Fade
             cascade={true}
             duration={100}
             direction="left"
             triggerOnce={true}
           >
-            <div className="border-4 p-4 border-marron  lg:h-[400px] md:col-span-2 name grid grid-cols-12 text-lg  ">
-              <div className=" col-span-1 pr-2 bg-marron text-white rounded text-center">
-                <p className="p-2 "> &nbsp;</p>
-                <p className="p-2 ">
+            <div className="border-4 p-4  border-marron md:col-span-2 name grid grid-cols-12 text-lg  ">
+              <div className=" sm:col-span-1 col-span-2 pr-2 bg-marron text-white rounded text-center">
+                <p className="py-2  "> &nbsp;</p>
+                <p className="py-2  ">
                   <FontAwesomeIcon icon={["fab", "r-project"]} />
                 </p>
-                <p className="p-2 ">
+                <p className="py-2  ">
                   {" "}
                   <FontAwesomeIcon icon="code" />
                 </p>
-                <p className="p-2 ">
+                <p className="py-2  ">
                   {" "}
                   <FontAwesomeIcon icon="user-graduate" />
                 </p>
-                <p className="p-2 ">
+                <p className="py-2  ">
                   <FontAwesomeIcon icon="history" />
                 </p>
-                <p className="p-2 ">
+                <p className="py-2  ">
                   <FontAwesomeIcon icon="icons" />
                 </p>
-                <p className="p-2 ">&nbsp; </p>
+                <p className="py-2  ">&nbsp; </p>
               </div>
 
               <div className="col-span-10 rounded  h-full">
@@ -140,7 +140,7 @@ const ResumePage = () => {
             </div>
           </Fade>
 
-          <div className="w-full p-4 border-marron border-4 rounded scrollbar h-[400px]  overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 ">
+          <div className="w-full h-full p-4 border-marron border-4 rounded scrollbar   overflow-auto md:col-span-2 property md:justify-self-start md:self-start md:mt-0 mt-10 ">
             {active === "project" && <Project />}
             {active === "skills" && <Skills />}
             {active === "education" && <Education />}

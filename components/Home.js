@@ -30,14 +30,15 @@ const HomePage = () => {
     )
   }, [])
   return (
-    <div id="#home" className="relative md:mt-20 container mx-auto">
+    <div id="#home" className="relative container mx-auto">
       <div className="  md:text-left text-center  m-auto  z-10 grid md:grid-cols-2 grid-cols-1 justify-center items-center w-full  ">
-        <div className=" md:mb-0 mb-32 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight">
-          <div ref={textRef} className="opacity-0 mt-8 ">
-            Hello World, my name is <br></br>
+        <div className=" md:mb-0 lg:px-12 md:px-10 sm:px-8 px-4 self-start mt-4 text-2xl lg:leading-loose md:leading-loose leading-loose font-extralight">
+          <div ref={textRef} className="opacity-0 mt-4 ">
+            Hello world, my name is <br></br>
             <span className="uppercase font-black ">Abdoul Akhad Top</span>{" "}
             <br />
-            and I am a {""}
+            and I am a <br></br>
+            {""}
             <span className="text-vert font-black shadow-xl bg-marron rounded p-2">
               <Typical
                 className="inline"
